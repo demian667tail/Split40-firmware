@@ -10,3 +10,11 @@
         , <&xiao_d 5 GPIO_ACTIVE_HIGH>
         ;
 };
+
+&vbatt {
+    compatible = "zmk,battery-voltage-divider";
+    io-channels = <&adc 7>;
+    power-gpios = <&gpio0 14 (GPIO_OPEN_DRAIN | GPIO_ACTIVE_LOW)>;
+    output-ohms = <484500>;
+    full-ohms = <(1000000 + 484500)>;
+};
