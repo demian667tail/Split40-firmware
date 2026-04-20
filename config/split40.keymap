@@ -90,9 +90,9 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)    &kp LS(N4)  &kp LS(N5)  &kp RS(N6)     &kp LS(N7)      &kp LS(N8)           &kp LS(N9)           &none          &trans
-&kp F1      &kp F2      &kp F3      &kp F4        &kp F5      &kp F6      &none          &kp LEFT_BRACE  &kp LS(RIGHT_BRACE)  &kp LS(NUHS)         &none          &trans
-&kp F7      &kp F8      &kp F9      &kp F10       &kp F11     &kp F12     &kp SEMICOLON  &kp APOS        &kp SLASH            &kp INTERNATIONAL_1  &kp LS(SLASH)  &trans
+&kp ESCAPE  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)    &kp LS(N4)  &kp LS(N5)  &kp RS(N6)     &kp LS(N7)      &kp LS(N8)       &kp LS(N9)           &none          &trans
+&kp F1      &kp F2      &kp F3      &kp F4        &kp F5      &kp F6      &none          &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp NUHS             &none          &trans
+&kp F7      &kp F8      &kp F9      &kp F10       &kp F11     &kp F12     &kp SEMICOLON  &kp APOS        &kp SLASH        &kp INTERNATIONAL_1  &kp LS(SLASH)  &trans
 &trans      &trans      &trans      &lt 3 DELETE  &trans      &trans      &trans         &trans
             >;
         };
